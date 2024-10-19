@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>HTML Portfolio</title>
+    <!--Icon HTML-->
+    <link rel="icon" href="./HTML.jfif" />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <!-- my profile photo  -->
+    <figure id="home">
+      <img width="50" height="60" src="./my profile 2.PNG" alt="my photo" />
+    </figure>
+
+    <!--Home section general informations-->
+    <div id="home">
+      <ul>
+        <dl>
+          <h6>
+            <b><i>Rafaa Ben Hassine</i></b>
+          </h6>
+        </dl>
+        <dl>
+          <h6><i>34 AV Beni Hassene, La Soukra , 2073 , Ariana</i></h6>
+        </dl>
+        <dl>
+          <h6><i>16/03/1980 .Tunis</i></h6>
+        </dl>
+        <dl>
+          <h6><i>tel 00216 25.688.838</i></h6>
+        </dl>
+        <dl>
+          <h6><i>Permis de conduire B (depuis 2003)</i></h6>
+        </dl>
+      </ul>
+    </div>
+
+    <main>
+      <!-- About Section -->
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Hello! I was a Merchandising Manager and I decided to change my
+          carrer. I'm now a full stack JavaScript web developer. I specialize in
+          creating dynamic and interactive web applications. I am passionate
+          about learning and improving my skills.
+        </p>
+      </section>
+
+      <!-- Work Section -->
+      <section id="work">
+        <h2>Work</h2>
+        <p>
+          I have worked on various web projects ranging from personal websites
+          to large-scale web applications. Here are a few examples of my recent
+          work:
+        </p>
+        <ul>
+          <li><strong>Project 1:</strong> A dynamic e-commerce website</li>
+          <li><strong>Project 2:</strong> A task management application</li>
+          <li><strong>Project 3:</strong> A responsive portfolio website</li>
+        </ul>
+      </section>
+
+      <!-- Resume Section -->
+      <section id="resume">
+        <h2>Resume</h2>
+        <p>You can view my resume by clicking the button below:</p>
+        <button>
+          <a href="../parent.html" target="_blank">View Resume</a><br />
+        </button>
+      </section>
+      <br />
+
+      <!-- Contact Section (with HTML Form) -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please fill out the form below:</p>
+        <form action="/submit_contact" method="POST">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            placeholder="put your name"
+            id="name"
+            name="name"
+            required
+          /><br /><br />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            placeholder="put your e-mail"
+            id="email"
+            name="email"
+            required
+          /><br /><br />
+
+          <label>phone:</label>
+          <input type="tel" placeholder="your phone number" />
+          <br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" required></textarea
+          ><br /><br />
+
+          <input type="submit" value="submit" />
+        </form>
+      </section>
+        
+      <!-- Second method -->
+      <!-- Contact Section (with HTML Form) -->
+      <!-- <div id="contact">
+        <button>Contact</button>
+        <form>
+          <label>email</label>
+          <input type="email" placeholder="Entrez votre adresse e-mail" />
+          <label>tel</label>
+          <input type="tel" placeholder="Entrez votre numéro de tél" />
+        </form>
+      </div> -->
+    </main>
+
+    <footer>
+      <!-- join me -->
+      <h6>me joindre |</h6>
+      <!-- join me by phone number -->
+      <a href="tel:25688838"
+        >tel
+        <img width="15" height="15" src="./icon 3 tel.jpg" alt="tel" />
+      </a>
+      <br />
+      <br />
+      <!-- join me by e-mail -->
+      <a href="mailto:rafaabenhassine0@gmail.com"
+        >e-mail
+        <img
+          width="20"
+          height="20"
+          src="./Email-PNG-Image-10108.png"
+          alt="e-mail"
+        />
+      </a>
+      <br />
+      <br />
+      <!-- join me by facebook  -->
+      <a href="https://www.facebook.com/" target="_blank">
+        <img
+          width="20"
+          height="20"
+          src="./icon faceboock 5.png"
+          alt="icon faceboock"
+        />
+      </a>
+      <!-- join me by instagram  -->
+      <a href="https://www.instagram.com/" target="_blank">
+        <img
+          width="20"
+          height="20"
+          src="./instagram icon petit.jpg"
+          alt="icon instagram"
+        />
+      </a>
+      <!-- join me by linkedin  -->
+      <a href="https://www.linkedin.com/" target="_blank">
+        <img width="20" height="20" src="./linkedin icon.jpg" alt="" />
+      </a>
+      <!-- join me by twitter  -->
+      <a href="https://www.twitter.com/" target="_blank">
+        <img
+          width="20"
+          height="20"
+          src="./icon twitter.jfif"
+          alt="icon faceboock"
+        />
+      </a>
+      <!-- Copyright -->
+      <h6>@all rights reserved</h6>
+    </footer>
+  </body>
+</html>
